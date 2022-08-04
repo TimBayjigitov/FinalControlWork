@@ -26,3 +26,7 @@ void ShowArray(string[] array) // Метод вывода массива
         Console.Write(array[i] + " ");
     Console.WriteLine(" ");
 }
+
+ShowArray(MyArray);
+Console.WriteLine("==============");
+ShowArray(ThreeSymbolString(MyArray));
