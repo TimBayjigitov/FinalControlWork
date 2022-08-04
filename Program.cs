@@ -6,3 +6,16 @@
 */
 
 string[] MyArray = new string[5] { "1234", "1567", "-2", "computer science", ":-)" };
+
+string[] ThreeSymbolString(string[] array) // Метод решения программы
+{
+    string[] ResultArray = new string[array.Length]; // Массив в который запишем необходимые нам элементы
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+        if (array[i].Length <= 3) // Проверка элемента на колличество символов (в нашем случае должно быть меньше либо равно 3 символам))
+        {
+            ResultArray[count] = array[i];
+            count++;
+        }
+    return ResultArray;
+}
