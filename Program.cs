@@ -5,7 +5,7 @@
 ["Russia", "Denmark", "Kazan"] -> []
 */
 
-string[] MyArray = new string[5] { "1234", "1567", "-2", "computer science", ":-)" };
+string[] MyArray = new string[6] { "1234", "1567", "-2", "computer science", ":-)", "Russia" };
 
 string[] ThreeSymbolString(string[] array) // Метод решения программы
 {
@@ -28,5 +28,5 @@ void ShowArray(string[] array) // Метод вывода массива
 }
 
 ShowArray(MyArray);
-Console.WriteLine("==============");
+Console.WriteLine("===========================================");
 ShowArray(ThreeSymbolString(MyArray));
