@@ -19,3 +19,10 @@ string[] ThreeSymbolString(string[] array) // Метод решения прог
         }
     return ResultArray;
 }
+
+void ShowArray(string[] array) // Метод вывода массива
+{
+    for (int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " ");
+    Console.WriteLine(" ");
+}
